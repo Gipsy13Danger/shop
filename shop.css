@@ -1,0 +1,108 @@
+body {
+    background-color: #dbdada;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+  background-color: #2d2c2c;
+  color: #fff;
+  padding: 20px;
+  overflow: hidden;
+  
+ }
+
+ .logo {
+    text-align: center;
+    font-size: 50px;
+    color: #27ff01;
+}
+
+p {
+  text-align: center;
+ }
+ nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color:#2d2c2c;
+  
+ }
+ nav ul li {
+  display: inline;
+  margin-right: 40px;
+  font-size: 30px;
+ }
+ nav ul li a {
+  color: #fff;
+  text-decoration: none;
+ }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    font-family: arial;
+  float: left;
+  margin: 0 1.5%;
+  width: 30%;
+    
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+   aside {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+aside h3 {
+    margin-top: 0;
+}
+  
+main {
+    flex: 4;
+    padding: 20px;
+}
+.container {
+    display: flex;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+img {
+  width: 320px;
+        height: 448px;
+}
